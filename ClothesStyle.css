@@ -1,0 +1,297 @@
+
+@import	url('reset.css');
+
+body{}
+
+/*----------------------- TOP ------------------------*/
+.logo{
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-bottom: solid 1px #bfbfbf; 
+	margin-right: 50px;
+	margin-left: 50px;
+	overflow: hidden;
+
+	position: relative;
+}
+
+.logo img{
+	height: 200px;
+}
+
+.fontAw{
+	/*border: 1px solid red;*/
+	position: absolute;
+	right: 100px;
+	/*margin-left: auto;*/
+	/*flex: 1;*/
+}
+
+.fa, .fas{
+	color: 	#808080;
+	font-size: 25px;
+	margin-left: 30px;
+}
+
+.fa, .fas:hover{
+	opacity: .5;
+}
+
+
+/*----------------------- MENU ------------------------*/
+
+.menu{
+}
+
+.menu ul{
+	display: flex;
+	justify-content: space-between;
+	margin: 15px 300px;
+}
+
+.menu li{
+	font-size: 16px;
+	font-style: italic;
+
+	flex-shrink: 0;
+}
+
+.menu li a{
+	text-decoration: none;
+	color: #767373;
+}
+
+.menu li:hover{
+	opacity: .3;
+}
+
+/*@media screen and (max-width: 1000px){
+	.menu li{
+		display: block;
+	}
+}*/
+
+/*----------------------- KV ------------------------*/
+
+.kv{
+	background-color: #cba78d;
+	height: 450px;
+	margin-right: 100px;
+	margin-left: 100px;
+
+	display: flex;
+	position: relative;
+}
+
+.kv .pic01{	
+	margin-top: 50px;
+	margin-left: 80px;
+	height: 95%;
+	align-items: flex-start;
+	flex-shrink: 0;
+}
+
+.kv span{
+	background-color: rgba(255, 255, 255, .5);
+	height: 250px;
+	width: 2px;
+	margin-left: 200px;
+	margin-top: 180px;
+}
+
+.kv .autumn{
+	width: 500px;
+	
+	position: absolute;
+	right: 120px;
+	top: 50px;
+}
+
+/*----------------------- DEVIDE ------------------------*/
+
+.devide{
+	margin-top: 50px;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.devide span{
+	background-color: #534f4f;
+	width: 200px;
+	height: 1px;
+	opacity: .3;
+	margin: auto 80px;
+}
+
+.devide p{
+	color: #534f4f;
+	opacity: .3;
+	font-size: 28px;
+	font-family: 'Petit Formal Script', cursive;
+}
+
+/*----------------------- MAinPic ------------------------*/
+
+.MainPic{
+	background-color: #f2e8d8;
+	height: 550px;
+	margin-right: 100px;
+	margin-left: 100px;
+
+	position: relative;
+}
+
+.MainPic .Pic02{
+	width: 700px;
+	
+	position: absolute;
+	right: 40px;
+	top: 20px;
+}
+
+.MainPic .Pic03{
+	width: 450px;
+
+	position: absolute;
+	left: 100px;
+	top: 180px;
+}
+
+.MainPic .Pic04{
+	width: 600px;
+
+	position: absolute;
+	right: 0;
+	bottom: -300px;
+}
+
+.Line{
+	width: 100%;
+	margin-top: 280px;
+	margin-bottom: 50px;
+}
+
+/*----------------------- ADS ------------------------*/
+
+.ads{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px;
+}
+
+.ads .Ad01{
+	width: 300px;
+}
+
+.ads .Ad02{
+	width: 300px;
+	margin-top: 42px;
+}
+
+.ads .Ad03{
+	width: 400px;
+}
+
+.ads .Ad04{
+	width: 254px;
+	padding-left: 50px;
+}
+
+/*----------------------- BOTTOM ------------------------*/
+.bottom{
+	margin: 100px 100px 0 100px;
+	height: 200px;
+	display: flex;
+	font-size: 18px;
+	justify-content: space-between;
+	line-height: 1.8;
+	border-top: solid 3px #e8e8e8;
+	padding-top: 20px;
+}
+
+.text01{}
+
+.text01 h3{
+	color: #1f1f1f;
+	font-size: 24px;
+}
+
+.text01 h4{
+	color: #757575;
+}
+
+.text02{
+	display: flex;
+	flex-direction: column;
+}
+
+.text02 h3{
+	color: #1f1f1f;
+	font-size: 24px;
+}
+
+.text02 a{
+	text-decoration: none;
+	color: #757575;
+}
+
+.text03{
+	display: flex;
+	flex-direction: column;
+}
+
+.text03 h3{
+	color: #1f1f1f;
+	font-size: 24px;
+}
+
+.text03 a{
+	text-decoration: none;
+	color: #757575;
+}
+
+.icon{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icon a{
+	text-decoration: none;
+	color: #977859;
+}
+
+.icon i{
+	font-size: 50px;
+}
+/*----------------------- COPYRIGHT ------------------------*/
+p{
+	font-size: 12px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
